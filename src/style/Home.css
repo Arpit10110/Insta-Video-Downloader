@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Saira+Extra+Condensed:wght@100&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    background-color: Black;
+    color: white;
+}
+h3{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+    font-family: 'Lemon', serif;
+    color: #fa8637;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.2rem;
+}
+.container input{
+    width: 25%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    height: 4vh;
+    border: none;
+}
+.container button{
+    padding: 0.4rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: 2px solid #c65224;
+    background-color: #a32a2a;
+    font-weight: bold;
+    color: wheat;
+    cursor: pointer;
+}
+.container input::placeholder {
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (width<=600px) {
+    h3 {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        letter-spacing: 1.2px;
+        font-weight: 100;
+        font-family: 'Lemon', serif;
+        color: #fa8637;
+    }
+    .container input {
+        width: 80%;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 1rem;
+        height: 4vh;
+        border: none;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        border: 2px solid;
+        width: 41%;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+    .downloadItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 63vh;
+        margin-bottom: 3rem;
+    }
+}
